@@ -79,3 +79,38 @@ class Tinder:
 			}
 			users.append(user)
 		return users
+
+	def matches(self):
+		data = requests.get(f'{TINDER_URL}/v2/matches?locale=en&count=100&message=1&is_tinder_', headers=self.headers).json()
+		users = []
+		for match in data['data']['matches']:
+			user = {
+				'seen': match['seen'],
+				'_id': match['_id'],
+				'closed': match['closed'],
+				'common_friend_count': match['common_friend_count'],
+				'common_like_count': match['common_like_count'],
+				'created_date': match['created_date'],
+				'dead': match['dead'],
+				'last_activity_date': match['last_activity_date'],
+				'message_count': match['message_count'],
+				'messages': match['messages'],
+				'participants': match['participants'],
+				'pending': match['pending'],
+				'is_super_like': match['is_super_like'],
+				'is_boost_match': match['is_boost_match'],
+				'is_super_boost_match': match['is_super_boost_match'],
+				'is_primetime_boost_match': match['is_primetime_boost_match'],
+				'is_experiences_match': match['is_experiences_match'],
+				'is_fast_match': match['is_fast_match'],
+				'is_preferences_match': match['is_preferences_match'],
+				'is_opener': match['is_opener'],
+				'has_shown_initial_interest': match['has_shown_initial_interest'],
+				'person': match['person'],
+				'following': match['following'],
+				'following_moments': match['following_moments'],
+				'readreceipt': match['readreceipt'],
+				'is_archived': match['is_archived'],
+			}
+			users.append(user)
+		return users
