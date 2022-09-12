@@ -1,4 +1,4 @@
-import requests
+import requests, json
 
 TINDER_URL = "https://api.gotinder.com"
 
@@ -114,3 +114,13 @@ class Tinder:
 			}
 			users.append(user)
 		return users
+
+	def like(self):
+		_id = '61247441301a3f010061d6de'
+		requests.get(f'{TINDER_URL}/like/{_id}', headers=self.headers).json()
+
+	#def setBio(self):
+	#	data = {"user":{"bio":"hey!"}}
+	#	response = requests.get(f'{TINDER_URL}/v2/profile?locale=en', headers=header, data=data)
+	#	print(response.content)
+		
