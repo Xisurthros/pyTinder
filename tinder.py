@@ -61,3 +61,21 @@ class Tinder:
 			'preference_filters': user['preference_filters']
 		}
 		return user_profile
+
+	def nearby(self):
+		data = requests.get(f'{TINDER_URL}/v2/recs/core', headers=self.headers).json()
+		users = []
+		for person in data['data']['results']:
+			user = {
+				'_id': person['user']['_id'],
+				'name': person['user']['name'],
+				'bio': person['user']['bio'],
+				'gender': person['user']['gender'],
+				'birth_date': person['user']['birth_date'],
+				'jobs': person['user']['jobs'],
+				'schools': person['user']['schools'],
+				'badges': person['user']['badges'],
+				'images': [image['url'] for image in person['user']['photos']]
+			}
+			users.append(user)
+		return users
