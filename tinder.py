@@ -124,3 +124,10 @@ class Tinder:
 		_id = input('Set id: ')
 		requests.get(f'{TINDER_URL}/pass/{_id}', headers=self.headers).json()
 		return f'Disliked {_id}'
+
+	def help(self):
+		return 'profile:\t Get personal profile information\n'\
+			   'nearby:\t\t Get nearby profiles.\n'\
+			   'matches:\t Get your 100 most recent matches.\n'\
+			   'like:\t\t Like a certain user.\n'\
+			   'dislike:\t Dislike a certain user.'
