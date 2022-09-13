@@ -116,11 +116,11 @@ class Tinder:
 		return users
 
 	def like(self):
-		_id = '61247441301a3f010061d6de'
+		_id = input('Set id: ')
 		requests.get(f'{TINDER_URL}/like/{_id}', headers=self.headers).json()
+		return f'Liked {_id}'
 
-	#def setBio(self):
-	#	data = {"user":{"bio":"hey!"}}
-	#	response = requests.get(f'{TINDER_URL}/v2/profile?locale=en', headers=header, data=data)
-	#	print(response.content)
-		
+	def dislike(self):
+		_id = input('Set id: ')
+		requests.get(f'{TINDER_URL}/pass/{_id}', headers=self.headers).json()
+		return f'Liked {_id}'
