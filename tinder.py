@@ -123,4 +123,4 @@ class Tinder:
 	def dislike(self):
 		_id = input('Set id: ')
 		requests.get(f'{TINDER_URL}/pass/{_id}', headers=self.headers).json()
-		return f'Liked {_id}'
+		return f'Disliked {_id}'
