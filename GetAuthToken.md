@@ -22,4 +22,5 @@
 > For sake of simplicity and understanding I have collapsed the three sections in the image above to show the 3 sections titles that I am referring to. \
 > Each section contains a lot of information that isn't visible in the image. \
 > In the `Request Headers` portion you will find a variable called `x-auth-token`. It should be the 2nd variable from the bottom. This is the token needed to use this library. \
+> Your Auth Token will be in the format of `00000000-0000-0000-0000-000000000000`
 > **IMPORTANT** - Do NOT share this token with anyone. This is your profiles personal token and if anyone else gains access to this token they will have full access to your personal profile.
