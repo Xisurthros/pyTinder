@@ -48,10 +48,10 @@ dislike:         Dislike a certain user.
 pyTinder officially supports Python 3.7+.
 
 ## Supported Features
-- [profile] - Get personal profile information. \
-- [nearby] - Get nearby profiles. \
-- [matches] - Get your 100 most recent matches. \
-- [like] - Like a certain user. \
+- [profile] - Get personal profile information.
+- [nearby] - Get nearby profiles.
+- [matches] - Get your 100 most recent matches.
+- [like] - Like a certain user.
 - [dislike] - Dislike a certain user.
 
 ## Data that can be gathered
