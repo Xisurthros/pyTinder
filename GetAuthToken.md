@@ -1,6 +1,6 @@
 # Getting your Tinder auth token
-> You will only have to search for this token once.\
-> There is no good way to automate getting this token due to the login procedure tinder uses.
+> This code seems to change `once` every day.\
+> I have not yet looked into the automation of getting this token at this time.
 
 ## Process
 > In the browser of your choosing, head to https://tinder.com/. \
