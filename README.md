@@ -1,6 +1,9 @@
 # pyTinder
 
-**pyTinder** is a simple library used to communicate with the Tinder service directly.
+**pyTinder** is in the early stages of becoming a simple library used to communicate with the Tinder service directly.
+
+## Contributing
+> Check out [Contribution.md](https://github.com/Xisurthros/pyTinder/blob/master/Contribution.md) for how to get started with the Tinder API.
 
 ## Auth Token
 > Check out [GetAuthToken.md](https://github.com/Xisurthros/pyTinder/blob/master/GetAuthToken.md) for a quick guide on getting your auth token.
