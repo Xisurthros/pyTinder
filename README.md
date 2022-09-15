@@ -146,3 +146,8 @@ pyTinder officially supports Python 3.7+.
 ```shell
 git clone https://github.com/Xisurthros/pyTinder.git
 ```
+
+## Furture plans
+> Look into the automation for getting Auth Token
+> Change profile information
+> Publish as library to pypi
