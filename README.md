@@ -28,7 +28,7 @@ if __name__ == '__main__':
 	tinder = Tinder('TOKEN')
 	main()
 ```
-TOKEN must be replaced with your TOKEN. Check out `AUTH Token` for details.
+TOKEN must be replaced with your TOKEN. Check out [AUTH Token](https://github.com/Xisurthros/pyTinder#auth-token) for details.
 
 ## Response example:
 ```python
@@ -151,6 +151,6 @@ git clone https://github.com/Xisurthros/pyTinder.git
 ```
 
 ## Furture plans
-> Look into the automation for getting Auth Token
-> Change profile information
-> Publish as library to pypi
+> Look into the automation for getting Auth Token. \
+> Change profile information. \
+> Publish as library to pypi.
