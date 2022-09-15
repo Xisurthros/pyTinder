@@ -48,98 +48,98 @@ dislike:         Dislike a certain user.
 pyTinder officially supports Python 3.7+.
 
 ## Supported Features
-- [profile] - Get personal profile information.
-- [nearby] - Get nearby profiles.
-- [matches] - Get your 100 most recent matches.
-- [like] - Like a certain user.
+- [profile] - Get personal profile information. \
+- [nearby] - Get nearby profiles. \
+- [matches] - Get your 100 most recent matches. \
+- [like] - Like a certain user. \
 - [dislike] - Dislike a certain user.
 
 ## Data that can be gathered
 #### - personal profile
-> account_phone_number
-> account_email
-> is_email_verified
-> apple_id_linked
-> facebook_id_linked
-> _id
-> age_filter_max
-> age_filter_min
-> bio
-> birth_date
-> create_date
-> crm_id
-> pos_info
-> discoverable
-> distance_filter
-> global_mode
-> auto_expansion
-> gender
-> gender_filter
-> show_gender_on_profile
-> name
-> photos
-> photos_processing
-> photo_optimizer_enabled
-> ping_time
-> jobs
-> schools
-> badges
-> interested_in
-> pos
-> billing_info
-> autoplay_video
-> top_picks_discoverable
-> photo_tagging_enabled
-> city
-> show_orientation_on_profile
-> show_same_orientation_first
-> sexual_orientations
-> user_interests
-> recommended_sort_discoverable
-> selfie_verification
-> noonlight_protected
-> user_presence_disabled
-> sync_swipe_enabled
-> bumper_stickers
+> account_phone_number \
+> account_email \
+> is_email_verified \
+> apple_id_linked \
+> facebook_id_linked \
+> _id \
+> age_filter_max \
+> age_filter_min \
+> bio \
+> birth_date \
+> create_date \
+> crm_id \
+> pos_info \
+> discoverable \
+> distance_filter \
+> global_mode \
+> auto_expansion \
+> gender \
+> gender_filter \
+> show_gender_on_profile \
+> name \
+> photos \
+> photos_processing \
+> photo_optimizer_enabled \
+> ping_time \
+> jobs \
+> schools \
+> badges \
+> interested_in \
+> pos \
+> billing_info \
+> autoplay_video \
+> top_picks_discoverable \
+> photo_tagging_enabled \
+> city \
+> show_orientation_on_profile \
+> show_same_orientation_first \
+> sexual_orientations \
+> user_interests \
+> recommended_sort_discoverable \
+> selfie_verification \
+> noonlight_protected \
+> user_presence_disabled \
+> sync_swipe_enabled \
+> bumper_stickers \
 > preference_filters
 
 #### - nearby
-> _id
-> name
-> bio
-> gender
-> birth_date
-> jobs
-> schools
-> badges
+> _id \
+> name \
+> bio \
+> gender \
+> birth_date \
+> jobs \
+> schools \
+> badges \
 > images
 
 #### - matches
-> seen
-> _id
-> closed
-> common_friend_count
-> common_like_count
-> created_date
-> dead
-> last_activity_date
-> message_count
-> messages
-> participants
-> pending
-> is_super_like
-> is_boost_match
-> is_super_boost_match
-> is_primetime_boost_match
-> is_experiences_match
-> is_fast_match
-> is_preferences_match
-> is_opener
-> has_shown_initial_interest
-> person
-> following
-> following_moments
-> readreceipt
+> seen \
+> _id \
+> closed \
+> common_friend_count \
+> common_like_count \
+> created_date \
+> dead \
+> last_activity_date \
+> message_count \
+> messages \
+> participants \
+> pending \
+> is_super_like \
+> is_boost_match \
+> is_super_boost_match \
+> is_primetime_boost_match \
+> is_experiences_match \
+> is_fast_match \
+> is_preferences_match \
+> is_opener \
+> has_shown_initial_interest \
+> person \
+> following \
+> following_moments \
+> readreceipt \
 > is_archived
 
 ## Cloning the repository
