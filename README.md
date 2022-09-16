@@ -118,6 +118,10 @@ pyTinder officially supports Python 3.7+.
 > images
 
 #### - matches
+> name \
+> bio \
+> birth_date \
+> photos \
 > seen \
 > _id \
 > closed \
