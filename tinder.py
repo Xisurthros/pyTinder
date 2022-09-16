@@ -2,6 +2,12 @@ import requests, json
 
 TINDER_URL = "https://api.gotinder.com"
 
+def bio(match):
+	try:
+		return(match['person']['bio'])
+	except KeyError:
+		return 'No Bio'
+
 class Tinder:
 
 	def __init__(self, token):
@@ -85,6 +91,10 @@ class Tinder:
 		users = []
 		for match in data['data']['matches']:
 			user = {
+				'name': match['person']['name'],
+				'bio': bio(match),
+				'birth_date': match['person']['birth_date'],
+				'photos': [photo['url'] for photo in match['person']['photos'][0]['processedFiles']],
 				'seen': match['seen'],
 				'_id': match['_id'],
 				'closed': match['closed'],
