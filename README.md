@@ -45,8 +45,8 @@ TOKEN must be replaced with your TOKEN. Check out [AUTH Token](https://github.co
 profile:         Get personal profile information.
 nearby:          Get nearby profiles.
 matches:         Get your 100 most recent matches.
-like:            Like a certain user.
-dislike:         Dislike a certain user.
+like(_id):            Like a certain user.
+dislike(_id):         Dislike a certain user.
 ```
 pyTinder officially supports Python 3.7+.
 
@@ -54,8 +54,8 @@ pyTinder officially supports Python 3.7+.
 - [profile] - Get personal profile information.
 - [nearby] - Get nearby profiles.
 - [matches] - Get your 100 most recent matches.
-- [like] - Like a certain user.
-- [dislike] - Dislike a certain user.
+- [like(_id)] - Like a certain user.
+- [dislike(_id)] - Dislike a certain user.
 
 ## Data that can be gathered
 #### - personal profile
