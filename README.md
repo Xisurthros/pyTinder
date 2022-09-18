@@ -47,11 +47,11 @@ TOKEN must be replaced with your TOKEN. Check out [AUTH Token](https://github.co
 [{'_id': '00000000000000000000', 'name': 'Example', 'bio': 'Example bio', 'gender': -1, 'birth_date': '2000-01-01T00:00:00.000Z', 'jobs': [], 'schools': [],.....
 
 >>> print(tinder.help())
-profile:         Get personal profile information.
-nearby:          Get nearby profiles.
-matches:         Get your 100 most recent matches.
-like(_id):            Like a certain user.
-dislike(_id):         Dislike a certain user.
+profile:         	Get personal profile information.
+nearby:          	Get nearby profiles.
+matches:         	Get your 100 most recent matches.
+like(_id):          Like a certain user.
+dislike(_id):       Dislike a certain user.
 ```
 pyTinder officially supports Python 3.7+.
 

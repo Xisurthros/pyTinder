@@ -184,8 +184,8 @@ class Tinder:
 			return errorHandling(dislike = True)
 
 	def help(self):
-		return 'profile:\t Get personal profile information.\n'\
-			   'nearby:\t\t Get nearby profiles.\n'\
-			   'matches:\t Get your 100 most recent matches.\n'\
+		return 'profile:\t\t Get personal profile information.\n'\
+			   'nearby:\t\t\t Get nearby profiles.\n'\
+			   'matches:\t\t Get your 100 most recent matches.\n'\
 			   'like(_id):\t\t Like a certain user.\n'\
-			   'dislike(_id):\t Dislike a certain user.'
+			   'dislike(_id):\t\t Dislike a certain user.'
