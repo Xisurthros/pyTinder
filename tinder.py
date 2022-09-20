@@ -18,7 +18,7 @@ def errorHandling(token = None, profile = None, nearby = None, matches = None, l
 		sys.exit(1)
 
 	elif profile:
-		return 'Error: No information available. This is due to issues on Tinder server side.'
+		return 'Error: No information available. This may be due to issues on Tinder server side.'
 
 	elif nearby:
 		return 'Error: No information available. This may be Tinder server issues or a lack of users nearby.'
